@@ -14,7 +14,7 @@ public class NumGenServiceMockitoTests {
 	@InjectMocks
 	AccountNumberGeneratorImplementation numGen;
 
-	private String regEx = "([abc])([0-9]{8})";
+	private String regEx = "([abc])([0-9]{6})";
 
 	@Test
 	public void numGenTest() {
