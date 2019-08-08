@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 public class AccountNumberGeneratorImplementation implements AccountNumberGenerator {
 
 	@Override
-	public Integer generateNumber() {
-		Integer number = (int) (Math.random() * 1000000);
+	public Long generateNumber() {
+		Long number = (long) (Math.random() * 1000000);
 		return number;
 	}
 
